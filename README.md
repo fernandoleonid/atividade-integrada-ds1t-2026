@@ -8,8 +8,6 @@ A solução deve ser uma aplicação leve, desenvolvida internamente, que rode d
 ## 2. O Foco
 O objetivo central é a **construção do sistema em Python**. As demais disciplinas atuarão como suporte para viabilizar, documentar, hospedar e distribuir esse produto final.
 
-**Nota sobre o Escopo:** O escopo funcional é **aberto**. Cabe ao grupo definir a profundidade da solução (ex: alguns podem focar em um cadastro robusto de produtos, enquanto outros podem implementar o fluxo completo de atribuição de motoboys e mudança de status do pedido). A avaliação considerará a complexidade e a qualidade do que foi entregue.
-
 ## 3. Papéis das Disciplinas
 
 *   **LOPAL (O Produto):** Desenvolver a lógica do sistema em Python utilizando **SQLite** (biblioteca nativa `sqlite3`, sem instalação extra). O sistema deve ser executado diretamente via terminal ou interface gráfica básica (`tkinter`), sem necessidade de instaladores.
@@ -23,16 +21,13 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 *   **LOPAL:** Link do wireframe e repositório com o código-fonte Python (incluindo o script de criação do banco SQLite).
 *   **LIMA:** Link do protótipo e repositório com o código-fonte HTML/CSS.
 *   **SOP / HARI:** Relatório de Infraestrutura contendo registro (fotos e prints) dos procedimentos de configuração de rede e containers (Formato: PDF).
-
-## 5. Entregáveis Transversais (Grupo)
-
 *   **Vídeo Pitch:** Um único vídeo editado e formatado, demonstrando o projeto em funcionamento. **Regra:** máximo de 1 minuto de fala por integrante.
 *   **Repositório Central (GitHub/GitLab):** Deve conter um `README.md` estruturado com:
     1. Nome e link (perfil) de todos os integrantes.
     2. Breve resumo da principal contribuição técnica de cada membro.
     3. Links diretos e organizados para todos os artefatos (PDFs, códigos, protótipos e vídeo).
 
-## 6. Cronograma
+## 5. Cronograma
 
 | Período | Entrega / Marco | Disciplinas |
 | :--- | :--- | :--- |
@@ -42,7 +37,7 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 | **23/11 a 03/12** | **Execução do Projeto:** Configuração de rede/containers, desenvolvimento Python/HTML e testes de integração. | HARI, SOP, LOPAL, LIMA |
 | **11/12** | **Defesa Técnica:** Demonstração do fluxo completo e apresentação dos artefatos. | Todas |
 
-## 7. Critério de Sucesso (Integração)
+## 7. Critério (Integração)
 
 O grupo deve demonstrar o fluxo completo em tempo real: 
 1. O Cliente acessa o domínio local (ex: `www.pizzaria.local` ou `www.arabe.local`) via navegador.
