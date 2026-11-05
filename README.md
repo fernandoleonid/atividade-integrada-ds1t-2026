@@ -34,7 +34,7 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 | **16/11** | **Ideia do Sistema:** Definição do nicho de mercado e escopo escolhido pelo grupo. | LOPAL, LER |
 | **16/11 a 19/11** | **Documento de Visão e Cronograma:** Detalhamento do objetivo, público e planejamento. | LER |
 | **19/11 a 20/11** | **Wireframe e Matriz de Requisitos:** Esboço da Landing Page e requisitos do sistema Python. | LIMA, LER, LOPAL |
-| **23/11 a 03/12** | **Execução do Projeto:** Configuração de rede/containers, desenvolvimento Python/HTML e testes de integração. | HARI, SOP, LOPAL, LIMA |
+| **23/11 a 03/12** | **Execução do Projeto:** Configuração de rede/containers, desenvolvimento Python/HTML e testes de integração. | ARI, SOP, LOPAL, LIMA |
 | **11/12** | **Defesa Técnica:** Demonstração do fluxo completo e apresentação dos artefatos. | Todas |
 
 ## 7. Critério (Integração)
