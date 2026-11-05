@@ -12,7 +12,7 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 
 *   **LOPAL (O Produto):** Desenvolver a lógica do sistema em Python utilizando **SQLite** (biblioteca nativa `sqlite3`, sem instalação extra). O sistema deve ser executado diretamente via terminal ou interface gráfica básica (`tkinter`), sem necessidade de instaladores.
 *   **LER (O Planejamento):** Levantar e documentar os requisitos funcionais e não funcionais específicos do nicho escolhido e da infraestrutura de suporte.
-*   **HARI e SOP (A Infraestrutura):** Montar a topologia de rede local (Roteador SOHO, DHCP, IPs) e provisionar os containers no PC Servidor (DNS para resolução de nomes e Web para hospedar o arquivo).
+*   **ARI e SOP (A Infraestrutura):** Montar a topologia de rede local (Roteador SOHO, DHCP, IPs) e provisionar os containers no PC Servidor (DNS para resolução de nomes e Web para hospedar o arquivo).
 *   **LIMA (A Divulgação):** Desenvolver a *Landing Page* (HTML/CSS) com a identidade visual do nicho escolhido, apresentando o projeto e fornecendo o link para download do código-fonte.
 
 ## 4. Entregáveis por Disciplina
@@ -20,7 +20,7 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 *   **LER:** Documento de Visão, Cronograma detalhado e Matriz de Requisitos (Formato: PDF).
 *   **LOPAL:** Link do wireframe e repositório com o código-fonte Python (incluindo o script de criação do banco SQLite).
 *   **LIMA:** Link do protótipo e repositório com o código-fonte HTML/CSS.
-*   **SOP / HARI:** Relatório de Infraestrutura contendo registro (fotos e prints) dos procedimentos de configuração de rede e containers (Formato: PDF).
+*   **SOP / ARI:** Relatório de Infraestrutura contendo registro (fotos e prints) dos procedimentos de configuração de rede e containers (Formato: PDF).
 *   **Vídeo Pitch:** Um único vídeo editado e formatado, demonstrando o projeto em funcionamento. **Regra:** máximo de 1 minuto de fala por integrante.
 *   **Repositório Central (GitHub/GitLab):** Deve conter um `README.md` estruturado com:
     1. Nome e link (perfil) de todos os integrantes.
