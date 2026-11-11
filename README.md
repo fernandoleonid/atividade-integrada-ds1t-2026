@@ -17,7 +17,7 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 - **LIMA:** Desenvolver a *Landing Page* (HTML/CSS) com a identidade visual do nicho escolhido, apresentando o projeto e fornecendo o link para download do código-fonte.
 
 ### Topologia de referência
-<img width="2560" height="1044" alt="topologia-ari" src="https://github.com/user-attachments/assets/8fb0ef63-5064-4ed7-aad4-c0d7ca902210" />
+<img width="2560" height="880" alt="topologia-ari (1)" src="https://github.com/user-attachments/assets/b6b21224-7c41-4105-bbcc-cd154a23a70c" />
 
 
 ## 4. Entregáveis por Disciplina
