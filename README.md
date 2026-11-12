@@ -11,7 +11,7 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 
 ## 3. Papéis das Disciplinas
 
-- **LOPAL:** Desenvolver a lógica do sistema em Python utilizando **SQLite** (biblioteca nativa `sqlite3`, sem instalação extra). O sistema deve ser executado diretamente via terminal ou interface gráfica básica (`tkinter`), sem necessidade de instaladores.
+- **LOPAL:** Desenvolver a lógica do sistema em Python utilizando **SQLite** para armazenamento de dados e **Streamlit** para a interface gráfica.
 - **LER:** Levantar e documentar os requisitos funcionais e não funcionais específicos do nicho escolhido e da infraestrutura de suporte.
 - **ARI e SOP:** Montar a topologia de rede local (física e virtual, AP/roteador (wifi), DHCP, IPs), **configurando o DHCP do AP**, e provisionar os serviços no PC Servidor (a máquina hospedeira): **um contêiner para cada serviço, todos na mesma máquina**, sendo um contêiner de DNS para resolução de nomes e um de Web para hospedar a landing page e o arquivo do código-fonte. Os requisitos da infraestrutura são levantados pelo grupo e entram na Matriz de Requisitos do LER.
 - **LIMA:** Desenvolver a *Landing Page* (HTML/CSS) com a identidade visual do nicho escolhido, apresentando o projeto e fornecendo o link para download do código-fonte.
@@ -37,7 +37,7 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 | Período | Entrega / Marco | Disciplinas |
 | :--- | :--- | :--- |
 | **16/11** | **Ideia do Sistema:** Definição do nicho de mercado e escopo escolhido pelo grupo. | LOPAL, LER |
-| **16/11 a 19/11** | **Documento de Visão e Cronograma:** Detalhamento do objetivo, público e planejamento. | LER |
+| **17/11 a 18/11** | **Documento de Visão e Cronograma:** Detalhamento do objetivo, público e planejamento. | LER |
 | **19/11 a 20/11** | **Wireframe e Matriz de Requisitos:** Esboço da Landing Page e requisitos do sistema Python **e da infraestrutura (ARI)**. | LIMA, LER, LOPAL, ARI |
 | **23/11 a 03/12** | **Execução do Projeto:** Configuração de rede/contêineres, desenvolvimento Python/HTML e testes de integração. | ARI, SOP, LOPAL, LIMA |
 | **11/12** | **Defesa Técnica:** Demonstração do fluxo completo e apresentação dos artefatos. | Todas |
