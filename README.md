@@ -17,7 +17,7 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 - **LIMA:** Desenvolver a *Landing Page* (HTML/CSS) com a identidade visual do nicho escolhido, apresentando o projeto e fornecendo o link para download do código-fonte.
 
 ### Topologia de referência
-<img width="2560" height="880" alt="topologia-ari (1)" src="https://github.com/user-attachments/assets/b6b21224-7c41-4105-bbcc-cd154a23a70c" />
+![](./img/diagrama.png)
 
 
 ## 4. Entregáveis por Disciplina
@@ -42,9 +42,56 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 | **23/11 a 03/12** | **Execução do Projeto:** Configuração de rede/contêineres, desenvolvimento Python/HTML e testes de integração. | ARI, SOP, LOPAL, LIMA |
 | **11/12** | **Defesa Técnica:** Demonstração do fluxo completo e apresentação dos artefatos. | Todas |
 
-## 6. Critério (Integração)
+## 6. Critério de Avaliação
 
-O grupo deve demonstrar o fluxo completo em tempo real:
-1. O Cliente, ligado ao AP e com o IP recebido por DHCP, acessa o domínio local (ex: `http://www.pizzaria.test` ou `http://www.arabe.test`) via navegador.
-2. A página carrega corretamente com a identidade visual do grupo (LIMA/SOP/ARI).
-3. O código-fonte é baixado a partir da própria página (servido pelo Web em contêiner) e a aplicação Python é executada, conectando-se ao banco SQLite local e operando conforme o escopo definido pelo grupo (LOPAL/LER).
+### LER
+* [ ] Documento de Visão aprovado.
+* [ ] Cronograma detalhado aprovado.
+* [ ] Matriz de Requisitos aprovada, incluindo os requisitos da infraestrutura (ARI).
+
+### LIMA
+* [ ] Protótipo da Landing Page com identidade visual do nicho escolhido.
+* [ ] Landing Page Seguindo o protótipo aprovado.
+* [ ] Código-fonte HTML/CSS organizado e bem estruturado.
+* [ ] Foi feito responsividade da Landing Page (desktop, tablet e mobile).
+* [ ] Demonstração da Landing Page em funcionamento no contêiner acessado pelo cliente windows e linux.
+* [ ] Comits contas a histórico de desenvolvimento do código-fonte HTML/CSS.
+
+### LOPAL
+* [ ] Wireframe do sistema aprovado.
+* [ ] Sistema Python feita seguindo o wireframe.
+* [ ] Sistema Python com interface gráfica (Streamlit) funcional.
+* [ ] Sistema Python com banco de dados (SQLite) funcional.
+* [ ] Código-fonte Python organizado e bem estruturado.
+* [ ] Demonstração do sistema em funcionamento no contêiner acessado pelo cliente windows e linux.
+* [ ] Comits contas a histórico de desenvolvimento do código-fonte Python.
+
+### SOP
+* [ ] Windows instalado e atualizado.
+* [ ] Linux instalado e atualizado.
+* [ ] Demostração dos clientes Windows e Linux acessando a Landing Page e o sistema Python.
+* [ ] Relatório de Infraestrutura contendo registro (fotos e prints) dos procedimentos de configuração de rede e contêineres (Formato: PDF).
+
+### ARI
+* [ ] Container de DNS configurado e funcional.
+* [ ] Container de Web configurado e funcional.
+* [ ] Conainer do sistema Python configurado e funcional.
+* [ ] Teste de conectividade entre os contêineres e clientes Windows e Linux.
+* [ ] Ap/roteador configurado e funcional.
+* [ ] Relatório de Infraestrutura contendo registro (fotos e prints) dos procedimentos de configuração de rede e contêineres (Formato: PDF).
+
+### Vídeo Pitch
+* [ ] Vídeo demostrando a conectividade entre os contêineres e clientes Windows e Linux.
+* [ ] Vídeo demostrando as maquinas virtualizadas (Windows e Linux) funcionando, com a Landing Page e o sistema Python em funcionamento.
+* [ ] Todos os integrantes do grupo explicando parte do projeto em até 1 minuto cada.
+
+## 7. Observações
+* O comits são essenciais para o acompanhamento do desenvolvimento do projeto. Não serão aceitos códigos-fonte sem histórico, ou com um unico commit, ou ainda com comits em intervalos curtos de tempo. O ideal é que o grupo faça comits frequentes, com mensagens claras e objetivas, descrevendo a evolução do projeto.
+
+## 8. Orientadores
+
+| Nome | LinkedIn | GitHub |
+| :--- | :--- | :--- |
+| **Fernando Leonid** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Fernando%20Leonid-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fernandoleonid/) | [![GitHub](https://img.shields.io/badge/GitHub-fernandoleonid-181717?style=for-the-badge&logo=github)](https://github.com/fernandoleonid) |
+| **Marcel NT** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Marcel%20NT-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/marcelnt/) | [![GitHub](https://img.shields.io/badge/GitHub-marcelnt-181717?style=for-the-badge&logo=github)](https://github.com/marcelnt) |
+| **João Henrique Parizoti Meyer** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jo%C3%A3o%20Meyer-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/joao-henrique-parizoti-meyer/) | [![GitHub](https://img.shields.io/badge/GitHub-Joao--Meyer-181717?style=for-the-badge&logo=github)](https://github.com/Joao-Meyer) |
