@@ -2,7 +2,7 @@
 # Projeto Integrado: Sistema de Gestão de Delivery Local
 
 ## 1. Contexto do Problema
-Uma empresa de delivery precisa de uma ferramenta para gerenciar suas operações (pedidos, produtos e motoboys). Por políticas de segurança e restrições de permissão nas máquinas dos colaboradores, **não é permitido instalar softwares de terceiros ou bancos de dados pesados**.
+Uma empresa de delivery precisa de uma ferramenta para gerenciar suas operações (exemplo pedidos, produtos). Por políticas de segurança e restrições de permissão nas máquinas dos colaboradores, **não é permitido instalar softwares de terceiros ou bancos de dados pesados**.
 
 A solução deve ser uma aplicação leve, desenvolvida internamente, que rode diretamente pelo interpretador Python e utilize apenas recursos nativos (como o banco de dados SQLite). Cada grupo escolherá um **nicho de mercado específico** (ex: Pizzaria, Comida Árabe, Sushi, Hamburgueria), o que definirá a identidade visual, o cardápio e as regras de negócio do sistema.
 
