@@ -67,8 +67,8 @@ O objetivo central é a **construção do sistema em Python**. As demais discipl
 * [ ] Comits contas a histórico de desenvolvimento do código-fonte Python.
 
 ### SOP
-* [ ] Windows instalado e atualizado.
-* [ ] Linux instalado e atualizado.
+* [ ] Windows(versão 10) instalado e atualizado.
+* [ ] Linux (Debian 13) instalado e atualizado.
 * [ ] Demostração dos clientes Windows e Linux acessando a Landing Page e o sistema Python.
 * [ ] Relatório de Infraestrutura contendo registro (fotos e prints) dos procedimentos de configuração de rede e contêineres (Formato: PDF).
 
